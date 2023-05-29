@@ -35,7 +35,7 @@ window.onload = function () {
         const message = document.getElementById('message').value;
 
         // Construct the email content
-        const emailContent = `Hi, I'm ${fullName}, my phone number is ${phoneNumber} , and my adress mail is ${emailAdress}.` + "\n \n" + "${message}";
+        const emailContent = `Hi, I'm ${fullName}, my phone number is ${phoneNumber} , and my adress mail is ${emailAdress}.` + "\n \n" + `${message}`;
 
         // Construct the mailto: link
         Email.send({
