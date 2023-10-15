@@ -21,8 +21,8 @@ html {
 }
 
 body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
 }
 
 .header {
@@ -712,6 +712,32 @@ section {
 .proj_btn:hover::before {
     width: 100%;
 }
+
+ /* Center the carousel */
+ .custom-carousel {
+    width: 45%; /* Adjust the desired width */
+    margin: 0 auto;
+  }
+
+  /* Center the carousel controls horizontally */
+  .carousel-control-prev,
+  .carousel-control-next {
+    transform: translateX(0);
+  }
+
+  /* Center the carousel items */
+  .carousel-inner {
+    text-align: center;
+  }
+
+  .carousel-item {
+    display: inline-block;
+  }
+
+  .carousel-item img {
+    width: 80%;
+    margin: 0 auto;
+  }
 
 .certification {
     width: auto;
